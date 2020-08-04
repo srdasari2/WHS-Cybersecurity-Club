@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WHS Cybersecurity Club</string>
+    <string name="welcome">Welcome</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="grade">Grade</string>
+    <string name="email">Email</string>
+    <string name="dietary_restrictions">Dietary Restrictions?</string>
+    <string name="password">Password</string>
+    <string name="shirt_size">Shirt Size</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="placeholder_text">Need Text</string>
+    <string name="school">School</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="teacher_register_info">Teacher Registration Details</string>
+    <string name="member_register_info">Please fill out the following fields to create an account</string>
+    <string name="officer_register_info">Please fill out the following fields to create an account</string>
+    <string name="title_activity_home">Announcements</string>
+</resources>

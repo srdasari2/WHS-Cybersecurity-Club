@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Applies to all buttons in the application-->
+    <style name="appDefaultButton">
+        <item name="android:background">@color/gray_purple</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:ems">10</item>
+    </style>
+    <style name="appCancelButton">
+        <item name="android:background">@color/grayer_purple</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <!-- Applies to all TextViews in the application-->
+    <style name="appDefaultTextView">
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Applies to all EditTexts in the application-->
+    <style name="appDefaultEditText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/gray_purple</item>
+        <item name="android:backgroundTint">@color/gray_purple</item>
+        <item name="android:textColorHint">@color/gray_purple</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:ems">10</item>
+    </style>
+    <!-- Applies to all TextViews in the application-->
+    <style name="appDefaultErrorTextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/dark_red</item>
+    </style>
+
+    <style name="appDefaultDivider">
+        <item name="android:layout_height">4dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
